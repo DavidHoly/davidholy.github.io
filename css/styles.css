@@ -1,25 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* ── Variables ─────────────────────────────────────────────── */
 :root {
-  --color-bg: #333333;
-  --color-bg-alt: #2a2a2a;
-  --color-surface: #3d3d3d;
-  --color-border: #4a4a4a;
-  --color-text: #ffffff;
-  --color-text-muted: #b8b8b8;
-  --color-accent: #00cccc;
-  --color-accent-hover: #00a8a8;
-  --color-accent-muted: rgba(0, 204, 204, 0.15);
-  --font-sans: "Bricolage Grotesque", system-ui, -apple-system, sans-serif;
-  --font-display: "Bricolage Grotesque", sans-serif;
-  --radius: 12px;
-  --radius-lg: 20px;
-  --shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
-  --header-h: 94px;
-  --container-mt: 40px;
-  --container-mb: 40px;
-  --transition: 0.25s ease;
+    --color-bg: #333333;
+    --color-bg-alt: #2a2a2a;
+    --color-surface: #3d3d3d;
+    --color-border: #4a4a4a;
+    --color-text: #ffffff;
+    --color-text-muted: #b8b8b8;
+    --color-accent: #00cccc;
+    --color-accent-hover: #00a8a8;
+    --color-accent-muted: rgba(0, 204, 204, 0.15);
+    --font-sans: "Clarity City", system-ui, -apple-system, sans-serif;
+    --font-display: "Clarity City", sans-serif;
+    --radius: 12px;
+    --radius-lg: 20px;
+    --shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+    --header-h: 94px;
+    --container-mt: 40px;
+    --container-mb: 40px;
+    --transition: 0.25s ease;
 }
 
 /* ── Reset & base ──────────────────────────────────────────── */
@@ -550,6 +550,107 @@ main .container > .project-detail__gallery-title:first-child {
 
 .contact-email a:hover {
   color: var(--color-accent-hover);
+}
+
+/* ── Contact form ──────────────────────────────────────────── */
+.contact-form {
+    max-width: 640px;
+}
+
+.contact-form__honeypot {
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.form-submit-error {
+    margin-top: 1rem;
+    padding: 0.85rem 1rem;
+    background: rgba(248, 113, 113, 0.1);
+    border-radius: var(--radius);
+    min-height: auto;
+}
+
+    .form-submit-error[hidden],
+    .form-success[hidden] {
+        display: none;
+    }
+
+.btn:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+}
+
+.form-group {
+    margin-bottom: 1.35rem;
+}
+
+    .form-group label {
+        display: block;
+        font-size: 0.875rem;
+        font-weight: 500;
+        margin-bottom: 0.45rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        padding: 0.8rem 1rem;
+        font-family: inherit;
+        font-size: 0.95rem;
+        color: var(--color-text);
+        background: var(--color-surface);
+        border: 1px solid var(--color-border);
+        border-radius: var(--radius);
+        transition: border-color var(--transition), box-shadow var(--transition);
+        resize: vertical;
+    }
+
+        .form-group input::placeholder,
+        .form-group textarea::placeholder {
+            color: #888888;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--color-accent);
+            box-shadow: 0 0 0 3px var(--color-accent-muted);
+        }
+
+        .form-group input.is-invalid,
+        .form-group textarea.is-invalid {
+            border-color: #f87171;
+        }
+
+.form-error {
+    display: block;
+    font-size: 0.8rem;
+    color: #f87171;
+    margin-top: 0.35rem;
+    min-height: 1.1rem;
+}
+
+    .form-error:empty {
+        display: none;
+    }
+
+.form-success {
+    margin-top: 1rem;
+    padding: 0.85rem 1rem;
+    font-size: 0.9rem;
+    color: var(--color-accent);
+    background: var(--color-accent-muted);
+    border-radius: var(--radius);
 }
 
 /* ── Footer ────────────────────────────────────────────────── */

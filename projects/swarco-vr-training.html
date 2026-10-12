@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!-- Generated with Cursor -->
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SWARCO - VR Training App - Portfolio</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <script>
+    (function () {
+      var lang = "de";
+      try {
+        var q = new URLSearchParams(window.location.search).get("lang");
+        if (q === "en" || q === "de") {
+          lang = q;
+        } else {
+          lang = localStorage.getItem("portfolio-lang") || lang;
+          if (lang !== "en" && lang !== "de") {
+            var c = document.cookie.match(/(?:^|; )portfolio-lang=(en|de)/);
+            if (c) lang = c[1];
+          }
+        }
+      } catch (e) {}
+      if (lang !== "de" && lang !== "en") lang = "de";
+      document.documentElement.lang = lang;
+    })();
+  </script>
+  <script src="../js/i18n.js" defer></script>
+</head>
+<body>
+  <header class="site-header is-scrolled">
+    <nav class="nav container" aria-label="Hauptnavigation" data-i18n-aria="nav.label">
+      <a href="../index.html#top" class="nav__logo">Christoph Sitar</a>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="../index.html#about" class="nav__link"><span data-lang="de">Über mich</span><span data-lang="en">About</span></a></li>
+        <li><a href="../index.html#projects" class="nav__link"><span data-lang="de">Projekte</span><span data-lang="en">Projects</span></a></li>
+        <li><a href="../index.html#contact" class="nav__link"><span data-lang="de">Kontakt</span><span data-lang="en">Contact</span></a></li>
+        <li><button type="button" class="lang-switch" data-lang-toggle aria-label="Zu Englisch wechseln" data-i18n-aria="lang.toggle">DE</button></li>
+      </ul>
+      <button type="button" class="nav__toggle" aria-label="Menü öffnen" data-i18n-aria="nav.open" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+    </nav>
+  </header>
+
+    <main class="project-detail project-detail--section-pad">
+    <div class="container project-detail__intro">
+      <span class="tag">VR</span>
+      <p class="project-detail__client">SWARCO</p>
+      <h1 class="project-detail__title">VR Training App</h1>
+
+      <div
+        class="hero-carousel"
+        data-images='["../images/SWARCO VR Training App/01.webp","../images/SWARCO VR Training App/02.webp","../images/SWARCO VR Training App/03.webp","../images/SWARCO VR Training App/04.webp"]'
+        data-alts='["SWARCO - VR Training App - image 1","SWARCO - VR Training App - image 2","SWARCO - VR Training App - image 3","SWARCO - VR Training App - image 4"]'
+      >
+        <div class="hero-carousel__footer hero-carousel__footer--above">
+          <button
+            type="button"
+            class="btn btn--primary trailer-btn"
+            data-video-url=""
+          >Trailer</button>
+        </div>
+        <div class="hero-carousel__viewport">
+          <div class="project-detail__hero">
+            <img class="hero-carousel__image" src="../images/SWARCO VR Training App/01.webp" alt="SWARCO - VR Training App - image 1">
+          </div>
+          <button type="button" class="hero-carousel__btn hero-carousel__btn--prev" aria-label="Vorheriges Bild" data-i18n-aria="carousel.prev">&#8592;</button>
+          <button type="button" class="hero-carousel__btn hero-carousel__btn--next" aria-label="Nächstes Bild" data-i18n-aria="carousel.next">&#8594;</button>
+          <span class="hero-carousel__counter" aria-live="polite">1 / 4</span>
+        </div>
+      </div>
+
+      <dl class="project-detail__meta project-detail__meta--sm">
+        <div><dt><span data-lang="de">Kunde</span><span data-lang="en">Client</span></dt><dd>SWARCO</dd></div>
+      </dl>
+    </div>
+
+    <section class="project-detail__body">
+      <div class="container project-detail__content">
+        <h2><span data-lang="de">Überblick</span><span data-lang="en">Overview</span></h2>
+        <p>
+<span data-lang="de">VR Training App ist Teil der MEDIASQUAD-Projektübersicht. Dieser Platzhaltertext wird durch die finale Projektbeschreibung ersetzt.</span><span data-lang="en">VR Training App is part of the MEDIASQUAD project showcase. Replace this placeholder text with your final project description.</span>
+        </p>
+
+        <h2><span data-lang="de">Funktionen</span><span data-lang="en">Key features</span></h2>
+        <ul>
+          <li><span data-lang="de">Projektdetails folgen in Kürze</span><span data-lang="en">Project details coming soon</span></li>
+        </ul>
+        <h2><span data-lang="de">Rolle im Projekt</span><span data-lang="en">Project role</span></h2>
+        <ul>
+          <li><span data-lang="de">Angaben folgen in Kürze</span><span data-lang="en">Details coming soon</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="project-detail__gallery-band">
+      <div class="container">
+        <h2 class="project-detail__gallery-title"><span data-lang="de">Galerie</span><span data-lang="en">Gallery</span></h2>
+        <div
+          class="project-gallery project-gallery--xl"
+          data-lightbox="false"
+          data-wrap="true"
+          data-images='["../images/SWARCO VR Training App/01.webp","../images/SWARCO VR Training App/02.webp","../images/SWARCO VR Training App/03.webp","../images/SWARCO VR Training App/04.webp"]'
+          data-alts='["SWARCO - VR Training App - gallery image 1","SWARCO - VR Training App - gallery image 2","SWARCO - VR Training App - gallery image 3","SWARCO - VR Training App - gallery image 4"]'
+        >
+          <button type="button" class="project-gallery__nav project-gallery__nav--prev" aria-label="Galerie nach links scrollen" data-i18n-aria="gallery.scrollLeft"></button>
+          <div class="project-gallery__viewport">
+            <div class="project-gallery__track"></div>
+          </div>
+          <button type="button" class="project-gallery__nav project-gallery__nav--next" aria-label="Galerie nach rechts scrollen" data-i18n-aria="gallery.scrollRight"></button>
+        </div>
+      <div class="project-detail__back project-detail__back--bottom">
+        <a href="../index.html#projects" class="btn btn--outline"><span data-lang="de">Zurück</span><span data-lang="en">Back</span></a>
+      </div>
+      </div>
+      </section>
+  </main>
+
+  <button type="button" class="back-to-top" id="back-to-top" aria-label="Nach oben" data-i18n-aria="backToTop"></button>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>&copy; 2026 Christoph Sitar. <span data-lang="de">Alle Rechte vorbehalten.</span><span data-lang="en">All rights reserved.</span></p>
+      <div class="site-footer__links">
+        <a href="../impressum.html" class="site-footer__legal">
+          <span data-lang="de">Impressum</span>
+          <span data-lang="en">Legal Notice</span>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/christoph-sitar/"
+          class="site-footer__social"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+        >
+          <svg class="site-footer__social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.78C.8 0 0 .77 0 1.73v20.54C0 23.23.8 24 1.78 24h20.44c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/back-to-top.js"></script>
+  <script src="../js/fit-text.js"></script>
+  <script src="../js/project-detail.js"></script>
+</body>
+</html>
