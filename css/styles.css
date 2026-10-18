@@ -961,7 +961,7 @@ main .container {
 .hero-carousel__counter {
     position: absolute;
     right: 1rem;
-    bottom: 0.75rem;
+    top: 1rem;
     z-index: 2;
     padding: 0.35rem 0.7rem;
     font-size: 0.8rem;
@@ -1365,9 +1365,16 @@ body.modal-open {
         outline-offset: 2px;
     }
 
-    .project-gallery__thumb img {
+    .project-gallery__thumb #trackNormal img {
         width: 100%;
-        aspect-ratio: 4 / 3;
+        aspect-ratio: 4/3;
+        object-fit: cover;
+        display: block;
+    }
+
+    .project-gallery__thumb #trackMobile img {
+        width: 100%;
+        aspect-ratio: 9 / 16;
         object-fit: cover;
         display: block;
     }

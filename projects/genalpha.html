@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Universit&aumlt Innsbruck - Gen Alpha E-sports - David Holy</title>
+    <title>Universit&aumlt Innsbruck - Alpine Rush - David Holy</title>
     <meta name="description" content="Gen Alpha Esports is a mobile and web app that surveys children and teens on their winter vacation preferences through gamification.">
     <meta name="author" content="David Holy">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -15,12 +15,12 @@
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Copper Cat Creations">
     <meta property="og:locale" content="de">
-    <meta property="og:title" content="Universit&aumlt Innsbruck - Gen Alpha E-sports - David Holy">
+    <meta property="og:title" content="Universit&aumlt Innsbruck - Alpine Rush - David Holy">
     <meta property="og:description" content="Gen Alpha Esports is a mobile and web app that surveys children and teens on their winter vacation preferences through gamification.">
     <meta property="og:image" content="../images/genalpha/01.webp">
     <meta property="og:image:alt" content="Smartphone-Mockup of the obstacle course minigame.">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Universit&aumlt Innsbruck - Gen Alpha E-sports - David Holy">
+    <meta name="twitter:title" content="Universit&aumlt Innsbruck - Alpine Rush - David Holy">
     <meta name="twitter:description" content="Gen Alpha Esports is a mobile and web app that surveys children and teens on their winter vacation preferences through gamification.">
     <meta name="twitter:image" content="../images/genalpha/01.webp">
     <link rel="stylesheet" href="../css/styles.css">
@@ -41,11 +41,12 @@
             <div class="container">
 
                 <span class="tag">Mobile | Web | Research</span>
-                <h1 class="project-detail__title">Gen Alpha E-Sports</h1>
+                <h1 class="project-detail__title">Alpine Rush</h1>
 
                 <div class="hero-carousel"
-                     data-images='["../images/genalpha/01.webp","../images/genalpha/02.webp","../images/genalpha/03.webp","../images/genalpha/04.webp"]'
-                     data-alts='["Smartphone-Mockup des Hindernislaufs mit goldenen Hirschen","Endless Runner im Hotelgang mit Koffer-Hindernis","Charakterdesigns der Wintersport-Figuren","3D-Übersicht der Hotel-Levelmodule in Blender"]'>
+                     data-images='["../images/genalpha/01.webp","../images/genalpha/02.webp","../images/genalpha/03.webp","../images/genalpha/04.webp","../images/genalpha/05.webp"]'
+                     data-videos='["https://vimeo.com/1202131145/700bf044b6"]'
+                     data-alts='[]'>
                     <div class="hero-carousel__viewport">
                         <div class="project-detail__hero">
                             <img class="hero-carousel__image" src="../images/genalpha/01.webp" alt="Smartphone-Mockup des Hindernislaufs mit goldenen Hirschen">
@@ -54,7 +55,7 @@
                         <button type="button" class="hero-carousel__btn hero-carousel__btn--next" aria-label="Next image">&#8594;</button>
                         <span class="hero-carousel__counter" aria-live="polite">1 / 4</span>
                     </div>
-                    <div class="hero-carousel__footer">
+                    <!--<div class="hero-carousel__footer">
                         <button type="button"
                                 class="btn btn--primary trailer-btn"
                                 data-video-url="https://vimeo.com/1202131145/700bf044b6">
@@ -65,7 +66,7 @@
                            target="_blank"
                            rel="noopener noreferrer">Zum Projekt</a>
 
-                    </div>
+                    </div>-->
                 </div>
 
                 <dl class="project-detail__meta">
@@ -81,7 +82,7 @@
             <div class="container project-detail__content">
                 <h2>Overview</h2>
                 <p>
-                    Commissioned by the University of Innsbruck, "Gen Alpha Esports" is a mobile and web app that surveys children and teens on their winter vacation preferences through gamification.
+                    Commissioned by the University of Innsbruck, "Alpine Rush" is a mobile and web app that surveys children and teens on their winter vacation preferences through gamification.
                     Players customize a virtual ski resort, unlocking bite-sized minigames between survey sections that tie directly into the resort areas they are developing.
                     <br /><br />
                     On this project, my main focus was prototyping and polishing the minigames. Because each app session was limited to just a few minutes, the games needed to be intuitive and quick to pick up.
@@ -104,13 +105,13 @@
         </section>
         <section class="project-detail__gallery-band project-detail__band project-detail__band--dark">
             <div class="container">
-                <h2 class="project-detail__gallery-title">Gallerie</h2>
+                <!--<h2 class="project-detail__gallery-title">Gallerie</h2>-->
                 <div class="project-gallery"
-                     data-images='["../images/genalpha/05.webp","../images/genalpha/06.webp","../images/genalpha/01.webp","../images/genalpha/02.webp","../images/genalpha/03.webp","../images/genalpha/04.webp"]'
+                     data-images='["../images/genalpha/alpine_run.gif","../images/genalpha/alpine_slalom.gif","../images/genalpha/alpine_marmot.gif","../images/genalpha/alpine_stars.gif"]'
                      data-alts='["Hindernislauf durch den Hotelkorridor mit goldenen Hirschen","Rig und Laufanimation der Spielfigur in Blender","Smartphone-Mockup des Hindernislaufs mit goldenen Hirschen","Endless Runner im Hotelgang mit Koffer-Hindernis","Charakterdesigns der Wintersport-Figuren","3D-Übersicht der Hotel-Levelmodule in Blender"]'>
                     <button type="button" class="project-gallery__nav project-gallery__nav--prev" aria-label="Scroll gallery left"></button>
                     <div class="project-gallery__viewport">
-                        <div class="project-gallery__track"></div>
+                        <div class="project-gallery__track" id="trackMobile"></div>
                     </div>
                     <button type="button" class="project-gallery__nav project-gallery__nav--next" aria-label="Scroll gallery right"></button>
                 </div>

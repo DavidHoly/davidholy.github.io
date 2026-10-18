@@ -1,0 +1,295 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Portfolio\\Website\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Portfolio\\Website\\projects\\innio-powerview.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projects\\innio-powerview.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Portfolio\\Website\\projects\\genalpha.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projects\\genalpha.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Portfolio\\Website\\js\\project-detail.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:js\\project-detail.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Portfolio\\Website\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Portfolio\\Website\\projects\\metzgerhandwerk-wursttheke-vr.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projects\\metzgerhandwerk-wursttheke-vr.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Portfolio\\Website\\projects\\swarco-product-explorer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projects\\swarco-product-explorer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Portfolio\\Website\\projects\\swarco-ar-traffic-world.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projects\\swarco-ar-traffic-world.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Portfolio\\Website\\projects\\wk-burgenland-raumplanung-vr.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projects\\wk-burgenland-raumplanung-vr.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Portfolio\\Website\\projects\\vogel-aus-dem-eis.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projects\\vogel-aus-dem-eis.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Portfolio\\Website\\projects\\swarco-vr-training.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projects\\swarco-vr-training.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Portfolio\\Website\\projects\\swarco-vr-metacity.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projects\\swarco-vr-metacity.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Portfolio\\Website\\projects\\novartis-vr-tour.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projects\\novartis-vr-tour.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Portfolio\\Website\\projects\\novartis-virtual-tour.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projects\\novartis-virtual-tour.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Portfolio\\Website\\projects\\notfall-lawine-vr.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projects\\notfall-lawine-vr.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Portfolio\\Website\\projects\\lfi-tirol-boden-xr.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projects\\lfi-tirol-boden-xr.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Portfolio\\Website\\projects\\hwk-erfurt-thueringer-bratwurst.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projects\\hwk-erfurt-thueringer-bratwurst.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Portfolio\\Website\\projects\\ciliatech.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projects\\ciliatech.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "project-detail.js",
+              "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\js\\project-detail.js",
+              "RelativeDocumentMoniker": "js\\project-detail.js",
+              "ToolTip": "D:\\Projects\\Portfolio\\Website\\js\\project-detail.js",
+              "RelativeToolTip": "js\\project-detail.js",
+              "ViewState": "AgIAAGsBAAAAAAAAAAAswJQBAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-10-18T22:07:20.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "metzgerhandwerk-wursttheke-vr.html",
+              "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\metzgerhandwerk-wursttheke-vr.html",
+              "RelativeDocumentMoniker": "projects\\metzgerhandwerk-wursttheke-vr.html",
+              "ToolTip": "D:\\Projects\\Portfolio\\Website\\projects\\metzgerhandwerk-wursttheke-vr.html",
+              "RelativeToolTip": "projects\\metzgerhandwerk-wursttheke-vr.html",
+              "ViewState": "AgIAAFAAAAAA9vI7TUYMwGkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-18T19:39:44.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "novartis-vr-tour.html",
+              "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\novartis-vr-tour.html",
+              "RelativeDocumentMoniker": "projects\\novartis-vr-tour.html",
+              "ToolTip": "D:\\Projects\\Portfolio\\Website\\projects\\novartis-vr-tour.html",
+              "RelativeToolTip": "projects\\novartis-vr-tour.html",
+              "ViewState": "AgIAAEoAAAAALCeh9GX+v2kAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-18T19:44:39.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "swarco-ar-traffic-world.html",
+              "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\swarco-ar-traffic-world.html",
+              "RelativeDocumentMoniker": "projects\\swarco-ar-traffic-world.html",
+              "ToolTip": "D:\\Projects\\Portfolio\\Website\\projects\\swarco-ar-traffic-world.html",
+              "RelativeToolTip": "projects\\swarco-ar-traffic-world.html",
+              "ViewState": "AgIAAEoAAAAA98lRgAAtwGQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-18T19:45:18.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "swarco-product-explorer.html",
+              "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\swarco-product-explorer.html",
+              "RelativeDocumentMoniker": "projects\\swarco-product-explorer.html",
+              "ToolTip": "D:\\Projects\\Portfolio\\Website\\projects\\swarco-product-explorer.html",
+              "RelativeToolTip": "projects\\swarco-product-explorer.html",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAH0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-18T19:46:38.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "swarco-vr-metacity.html",
+              "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\swarco-vr-metacity.html",
+              "RelativeDocumentMoniker": "projects\\swarco-vr-metacity.html",
+              "ToolTip": "D:\\Projects\\Portfolio\\Website\\projects\\swarco-vr-metacity.html",
+              "RelativeToolTip": "projects\\swarco-vr-metacity.html",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAGYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-18T20:02:49.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "swarco-vr-training.html",
+              "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\swarco-vr-training.html",
+              "RelativeDocumentMoniker": "projects\\swarco-vr-training.html",
+              "ToolTip": "D:\\Projects\\Portfolio\\Website\\projects\\swarco-vr-training.html",
+              "RelativeToolTip": "projects\\swarco-vr-training.html",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAGAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-18T20:03:11.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "vogel-aus-dem-eis.html",
+              "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\vogel-aus-dem-eis.html",
+              "RelativeDocumentMoniker": "projects\\vogel-aus-dem-eis.html",
+              "ToolTip": "D:\\Projects\\Portfolio\\Website\\projects\\vogel-aus-dem-eis.html",
+              "RelativeToolTip": "projects\\vogel-aus-dem-eis.html",
+              "ViewState": "AgIAAFkAAAAAliAjoOoqwGcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-18T19:02:12.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "wk-burgenland-raumplanung-vr.html",
+              "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\wk-burgenland-raumplanung-vr.html",
+              "RelativeDocumentMoniker": "projects\\wk-burgenland-raumplanung-vr.html",
+              "ToolTip": "D:\\Projects\\Portfolio\\Website\\projects\\wk-burgenland-raumplanung-vr.html",
+              "RelativeToolTip": "projects\\wk-burgenland-raumplanung-vr.html",
+              "ViewState": "AgIAAFYAAACAiSMPRAopwG8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-18T20:03:35.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "genalpha.html",
+              "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\genalpha.html",
+              "RelativeDocumentMoniker": "projects\\genalpha.html",
+              "ToolTip": "D:\\Projects\\Portfolio\\Website\\projects\\genalpha.html",
+              "RelativeToolTip": "projects\\genalpha.html",
+              "ViewState": "AgIAAFgAAAA4jmFO0MokwG0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-18T19:05:21.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "innio-powerview.html",
+              "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\innio-powerview.html",
+              "RelativeDocumentMoniker": "projects\\innio-powerview.html",
+              "ToolTip": "D:\\Projects\\Portfolio\\Website\\projects\\innio-powerview.html",
+              "RelativeToolTip": "projects\\innio-powerview.html",
+              "ViewState": "AgIAAF4AAAAAQE/KpOb3v4QAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-18T19:09:51.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "styles.css",
+              "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\css\\styles.css",
+              "RelativeDocumentMoniker": "css\\styles.css",
+              "ToolTip": "D:\\Projects\\Portfolio\\Website\\css\\styles.css",
+              "RelativeToolTip": "css\\styles.css",
+              "ViewState": "AgIAADYFAAAAAAAAAAAAwFcFAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-10-18T22:02:25.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "novartis-virtual-tour.html",
+              "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\novartis-virtual-tour.html",
+              "RelativeDocumentMoniker": "projects\\novartis-virtual-tour.html",
+              "ToolTip": "D:\\Projects\\Portfolio\\Website\\projects\\novartis-virtual-tour.html",
+              "RelativeToolTip": "projects\\novartis-virtual-tour.html",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-18T19:43:59.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "notfall-lawine-vr.html",
+              "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\notfall-lawine-vr.html",
+              "RelativeDocumentMoniker": "projects\\notfall-lawine-vr.html",
+              "ToolTip": "D:\\Projects\\Portfolio\\Website\\projects\\notfall-lawine-vr.html",
+              "RelativeToolTip": "projects\\notfall-lawine-vr.html",
+              "ViewState": "AgIAAFoAAAAAEK0Vbc4FwGoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-18T19:40:15.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "lfi-tirol-boden-xr.html",
+              "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\lfi-tirol-boden-xr.html",
+              "RelativeDocumentMoniker": "projects\\lfi-tirol-boden-xr.html",
+              "ToolTip": "D:\\Projects\\Portfolio\\Website\\projects\\lfi-tirol-boden-xr.html",
+              "RelativeToolTip": "projects\\lfi-tirol-boden-xr.html",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAQwG4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-18T19:38:44.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "hwk-erfurt-thueringer-bratwurst.html",
+              "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\hwk-erfurt-thueringer-bratwurst.html",
+              "RelativeDocumentMoniker": "projects\\hwk-erfurt-thueringer-bratwurst.html",
+              "ToolTip": "D:\\Projects\\Portfolio\\Website\\projects\\hwk-erfurt-thueringer-bratwurst.html",
+              "RelativeToolTip": "projects\\hwk-erfurt-thueringer-bratwurst.html",
+              "ViewState": "AgIAAF4AAAAAW8zPDT0VwG0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-18T19:06:07.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ciliatech.html",
+              "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\ciliatech.html",
+              "RelativeDocumentMoniker": "projects\\ciliatech.html",
+              "ToolTip": "D:\\Projects\\Portfolio\\Website\\projects\\ciliatech.html",
+              "RelativeToolTip": "projects\\ciliatech.html",
+              "ViewState": "AgIAAD8AAACArz2zJLAnwGkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-18T19:02:51.578Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
