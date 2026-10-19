@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Projects\\Portfolio\\Website\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Portfolio\\Website\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Portfolio\\Website\\projects\\innio-powerview.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projects\\innio-powerview.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -78,11 +82,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "D:\\Projects\\Portfolio\\Website\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAK8AAAAAriYW+EIgwMkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-19T00:03:51.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "project-detail.js",
               "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\js\\project-detail.js",
               "RelativeDocumentMoniker": "js\\project-detail.js",
@@ -90,12 +107,11 @@
               "RelativeToolTip": "js\\project-detail.js",
               "ViewState": "AgIAAGsBAAAAAAAAAAAswJQBAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-10-18T22:07:20.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-18T22:07:20.39Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "metzgerhandwerk-wursttheke-vr.html",
               "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\metzgerhandwerk-wursttheke-vr.html",
               "RelativeDocumentMoniker": "projects\\metzgerhandwerk-wursttheke-vr.html",
@@ -107,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "novartis-vr-tour.html",
               "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\novartis-vr-tour.html",
               "RelativeDocumentMoniker": "projects\\novartis-vr-tour.html",
@@ -119,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "swarco-ar-traffic-world.html",
               "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\swarco-ar-traffic-world.html",
               "RelativeDocumentMoniker": "projects\\swarco-ar-traffic-world.html",
@@ -131,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "swarco-product-explorer.html",
               "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\swarco-product-explorer.html",
               "RelativeDocumentMoniker": "projects\\swarco-product-explorer.html",
@@ -143,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "swarco-vr-metacity.html",
               "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\swarco-vr-metacity.html",
               "RelativeDocumentMoniker": "projects\\swarco-vr-metacity.html",
@@ -155,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "swarco-vr-training.html",
               "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\swarco-vr-training.html",
               "RelativeDocumentMoniker": "projects\\swarco-vr-training.html",
@@ -167,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "vogel-aus-dem-eis.html",
               "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\vogel-aus-dem-eis.html",
               "RelativeDocumentMoniker": "projects\\vogel-aus-dem-eis.html",
@@ -179,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "wk-burgenland-raumplanung-vr.html",
               "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\wk-burgenland-raumplanung-vr.html",
               "RelativeDocumentMoniker": "projects\\wk-burgenland-raumplanung-vr.html",
@@ -191,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "genalpha.html",
               "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\genalpha.html",
               "RelativeDocumentMoniker": "projects\\genalpha.html",
@@ -199,25 +215,24 @@
               "RelativeToolTip": "projects\\genalpha.html",
               "ViewState": "AgIAAFgAAAA4jmFO0MokwG0AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-10-18T19:05:21.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-18T19:05:21.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "innio-powerview.html",
               "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\innio-powerview.html",
               "RelativeDocumentMoniker": "projects\\innio-powerview.html",
               "ToolTip": "D:\\Projects\\Portfolio\\Website\\projects\\innio-powerview.html",
               "RelativeToolTip": "projects\\innio-powerview.html",
-              "ViewState": "AgIAAF4AAAAAQE/KpOb3v4MAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAACA35o7+ncUwH4AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2026-10-18T19:09:51.021Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "styles.css",
               "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\css\\styles.css",
               "RelativeDocumentMoniker": "css\\styles.css",
@@ -229,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "novartis-virtual-tour.html",
               "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\novartis-virtual-tour.html",
               "RelativeDocumentMoniker": "projects\\novartis-virtual-tour.html",
@@ -241,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "notfall-lawine-vr.html",
               "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\notfall-lawine-vr.html",
               "RelativeDocumentMoniker": "projects\\notfall-lawine-vr.html",
@@ -253,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "lfi-tirol-boden-xr.html",
               "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\lfi-tirol-boden-xr.html",
               "RelativeDocumentMoniker": "projects\\lfi-tirol-boden-xr.html",
@@ -265,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "hwk-erfurt-thueringer-bratwurst.html",
               "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\hwk-erfurt-thueringer-bratwurst.html",
               "RelativeDocumentMoniker": "projects\\hwk-erfurt-thueringer-bratwurst.html",
@@ -277,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ciliatech.html",
               "DocumentMoniker": "D:\\Projects\\Portfolio\\Website\\projects\\ciliatech.html",
               "RelativeDocumentMoniker": "projects\\ciliatech.html",
