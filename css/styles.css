@@ -1,5 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+@-webkit-keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 500px 500px;
+    }
+}
+
+@-moz-keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 500px 500px;
+    }
+}
+
+@-o-keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 500px 500px;
+    }
+}
+
+@keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 500px 500px;
+    }
+}
+
+@-webkit-keyframes bg-scrolling {
+    0% {
+        background-position: 50px 50px;
+    }
+}
+
+@-moz-keyframes bg-scrolling {
+    0% {
+        background-position: 50px 50px;
+    }
+}
+
+@-o-keyframes bg-scrolling {
+    0% {
+        background-position: 50px 50px;
+    }
+}
+
+@keyframes bg-scrolling {
+    0% {
+        background-position: 50px 50px;
+    }
+}
 /* ── Variables ─────────────────────────────────────────────── */
 :root {
     --color-bg: #333333;
@@ -21,11 +68,8 @@
     --container-mb: 40px;
     --transition: 0.25s ease;
 }
-
 /* ── Reset & base ──────────────────────────────────────────── */
-*,
-*::before,
-*::after {
+*, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -61,7 +105,6 @@ a {
 ul {
     list-style: none;
 }
-
 /* ── Layout ────────────────────────────────────────────────── */
 .container {
     width: min(1120px, 100% - 2.5rem);
@@ -80,12 +123,8 @@ main .container {
     main .container > :last-child {
         margin-bottom: 0;
     }
-
     /* Line-height leaves empty space above painted caps; pull titles up so the top gap is visual. */
-    main .container > .section__title:first-child,
-    main .container > h1:first-child,
-    main .container > h2:first-child,
-    main .container > .project-detail__gallery-title:first-child {
+    main .container > .section__title:first-child, main .container > h1:first-child, main .container > h2:first-child, main .container > .project-detail__gallery-title:first-child {
         margin-top: calc(1cap - 0.87em);
     }
 
@@ -116,7 +155,6 @@ main .container {
     max-width: 52ch;
     margin-bottom: 2.5rem;
 }
-
 /* ── Buttons ───────────────────────────────────────────────── */
 .btn {
     display: inline-flex;
@@ -155,7 +193,6 @@ main .container {
         border-color: var(--color-accent);
         color: var(--color-accent);
     }
-
 /* ── Tags ──────────────────────────────────────────────────── */
 .tag {
     display: inline-block;
@@ -179,7 +216,6 @@ main .container {
     flex-wrap: wrap;
     gap: 0.35rem 0.75rem;
 }
-
 /* ── Header / Nav ──────────────────────────────────────────── */
 .site-header {
     position: fixed;
@@ -256,13 +292,11 @@ main .container {
     transition: width var(--transition);
 }
 
-.nav__link:hover,
-.nav__link.is-active {
+.nav__link:hover, .nav__link.is-active {
     color: var(--color-text);
 }
 
-    .nav__link:hover::after,
-    .nav__link.is-active::after {
+    .nav__link:hover::after, .nav__link.is-active::after {
         width: 100%;
     }
 
@@ -292,8 +326,7 @@ main .container {
     transition: transform var(--transition), opacity var(--transition);
 }
 
-.nav__toggle[aria-expanded="true"] .nav__toggle-bar:nth-child(1),
-.nav__toggle[aria-expanded="true"] .nav__toggle-bar:nth-child(3) {
+.nav__toggle[aria-expanded="true"] .nav__toggle-bar:nth-child(1), .nav__toggle[aria-expanded="true"] .nav__toggle-bar:nth-child(3) {
     position: absolute;
     left: 4px;
     right: 4px;
@@ -313,7 +346,6 @@ main .container {
 .nav__toggle[aria-expanded="true"] .nav__toggle-bar:nth-child(3) {
     transform: rotate(-45deg);
 }
-
 /* ── About ─────────────────────────────────────────────────── */
 .about {
     display: grid;
@@ -384,7 +416,73 @@ main .container {
             color: var(--color-border);
             font-weight: 400;
         }
+/* ── Featuring project ────────────────-────────────────────── */
 
+.feature {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.feature-card {
+    background-image: url("../images/20SecondMechanic/20SecondMechanic_BG.png");
+    background-repeat: repeat;
+    background-size: 300px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+    height: 6em;
+    -webkit-animation: bg-scrolling-reverse 20s infinite;
+    /* Safari 4+ */
+    -moz-animation: bg-scrolling-reverse 20s infinite;
+    /* Fx 5+ */
+    -o-animation: bg-scrolling-reverse 20s infinite;
+    /* Opera 12+ */
+    animation: bg-scrolling-reverse 20s infinite;
+    /* IE 10+ */
+
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+.feature-card__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+}
+
+.feature-card__image {
+    width: 20%;
+}
+
+.feature-card__decoImageLeft {
+    width: 20%;
+    transform: translate(-8em, 4em);
+}
+
+.feature-card__decoImageRight {
+    width: 20%;
+    transform: translate(8em, -4em);
+}
+
+.feature-card__title {
+    width: auto;
+}
+
+
+.feature-card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow);
+    border-color: rgba(132, 189, 176, 0.35);
+}
 /* ── Highlight projects ────────────────────────────────────── */
 .highlights {
     display: grid;
@@ -456,7 +554,6 @@ main .container {
     color: var(--color-text-muted);
     flex: 1;
 }
-
 /* ── Filter bar ────────────────────────────────────────────── */
 .filter-bar {
     display: flex;
@@ -488,7 +585,6 @@ main .container {
         background: var(--color-accent);
         border-color: var(--color-accent);
     }
-
 /* ── Project grid ──────────────────────────────────────────── */
 .projects-grid {
     display: grid;
@@ -569,7 +665,6 @@ main .container {
         .contact-email a:hover {
             color: var(--color-accent-hover);
         }
-
 /* ── Contact form ──────────────────────────────────────────── */
 .contact-form {
     max-width: 640px;
@@ -590,8 +685,7 @@ main .container {
     min-height: auto;
 }
 
-    .form-submit-error[hidden],
-    .form-success[hidden] {
+    .form-submit-error[hidden], .form-success[hidden] {
         display: none;
     }
 
@@ -619,8 +713,7 @@ main .container {
         margin-bottom: 0.45rem;
     }
 
-    .form-group input,
-    .form-group textarea {
+    .form-group input, .form-group textarea {
         width: 100%;
         padding: 0.8rem 1rem;
         font-family: inherit;
@@ -633,20 +726,17 @@ main .container {
         resize: vertical;
     }
 
-        .form-group input::placeholder,
-        .form-group textarea::placeholder {
+        .form-group input::placeholder, .form-group textarea::placeholder {
             color: #888888;
         }
 
-        .form-group input:focus,
-        .form-group textarea:focus {
+        .form-group input:focus, .form-group textarea:focus {
             outline: none;
             border-color: var(--color-accent);
             box-shadow: 0 0 0 3px var(--color-accent-muted);
         }
 
-        .form-group input.is-invalid,
-        .form-group textarea.is-invalid {
+        .form-group input.is-invalid, .form-group textarea.is-invalid {
             border-color: #f87171;
         }
 
@@ -670,7 +760,6 @@ main .container {
     background: var(--color-accent-muted);
     border-radius: var(--radius);
 }
-
 /* ── Footer ────────────────────────────────────────────────── */
 .site-footer {
     padding: 2rem 0;
@@ -744,7 +833,6 @@ main .container {
             outline: 2px solid var(--color-accent);
             outline-offset: 2px;
         }
-
 /* ── Legal notice ──────────────────────────────────────────── */
 .legal-page__content {
     max-width: 68ch;
@@ -765,8 +853,7 @@ main .container {
         margin: 2rem 0 0.5rem;
     }
 
-    .legal-page__content p,
-    .legal-page__content address {
+    .legal-page__content p, .legal-page__content address {
         color: var(--color-text-muted);
         font-style: normal;
         margin-bottom: 1rem;
@@ -779,7 +866,6 @@ main .container {
         .legal-page__content a:hover {
             color: var(--color-accent-hover);
         }
-
 /* ── Back to top (mobile) ──────────────────────────────────── */
 .back-to-top {
     display: none;
@@ -830,7 +916,6 @@ main .container {
             margin-top: 4px;
         }
 }
-
 /* ── Project detail page ───────────────────────────────────── */
 .project-detail {
     padding-top: var(--header-h);
@@ -885,8 +970,7 @@ main .container {
     scroll-snap-stop: always;
 }
 
-.project-detail__hero img,
-.hero-carousel__image {
+.project-detail__hero img, .hero-carousel__image {
     width: 100%;
     aspect-ratio: 16 / 9;
     object-fit: cover;
@@ -921,8 +1005,7 @@ main .container {
         color: var(--color-accent);
     }
 
-.hero-carousel__btn--prev::before,
-.hero-carousel__btn--next::before {
+.hero-carousel__btn--prev::before, .hero-carousel__btn--next::before {
     content: "";
     display: block;
     width: 11px;
@@ -1042,7 +1125,6 @@ main .container {
         height: 100%;
         border: none;
     }
-
 /* ── Video modal ───────────────────────────────────────────── */
 body.modal-open {
     overflow: hidden;
@@ -1100,8 +1182,7 @@ body.modal-open {
     transition: background var(--transition), color var(--transition), border-color var(--transition);
 }
 
-    .video-modal__close::before,
-    .video-modal__close::after {
+    .video-modal__close::before, .video-modal__close::after {
         content: "";
         position: absolute;
         top: 50%;
@@ -1224,7 +1305,6 @@ body.modal-open {
         object-fit: cover;
         border: 1px solid var(--color-border);
     }
-
 /* ── Artist template layout ────────────────────────────────── */
 .artist-template {
     padding-top: 0;
@@ -1319,8 +1399,7 @@ body.modal-open {
         cursor: default;
     }
 
-.project-gallery__nav--prev::before,
-.project-gallery__nav--next::before {
+.project-gallery__nav--prev::before, .project-gallery__nav--next::before {
     content: "";
     display: block;
     width: 10px;
@@ -1379,6 +1458,39 @@ body.modal-open {
         display: block;
     }
 
+/* ── Mechanic Template ─────────────────────────────────────────── */
+
+
+
+.mechanic-template .project-detail__band--dark {
+    background-image: url("../images/20SecondMechanic/20SecondMechanic_BG.png");
+    background-repeat: repeat;
+    background-size: 800px;
+    overflow: hidden;
+    -webkit-animation: bg-scrolling-reverse 20s infinite;
+    /* Safari 4+ */
+    -moz-animation: bg-scrolling-reverse 20s infinite;
+    /* Fx 5+ */
+    -o-animation: bg-scrolling-reverse 20s infinite;
+    /* Opera 12+ */
+    animation: bg-scrolling-reverse 20s infinite;
+    /* IE 10+ */
+
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+.mechanic-template .project-detail__band--transparent {
+    background: rgba(51, 51, 51, 0.92);
+    backdrop-filter: blur(12px);
+}
+
+.mechanic-template .project-detail__hero {
+    border: 0px solid var(--color-border)
+}
+
 /* ── Gallery modal ─────────────────────────────────────────── */
 .gallery-modal {
     position: fixed;
@@ -1432,8 +1544,7 @@ body.modal-open {
     transition: background var(--transition), color var(--transition), border-color var(--transition);
 }
 
-    .gallery-modal__close::before,
-    .gallery-modal__close::after {
+    .gallery-modal__close::before, .gallery-modal__close::after {
         content: "";
         position: absolute;
         top: 50%;
@@ -1501,8 +1612,7 @@ body.modal-open {
         color: var(--color-accent);
     }
 
-.gallery-modal__btn--prev::before,
-.gallery-modal__btn--next::before {
+.gallery-modal__btn--prev::before, .gallery-modal__btn--next::before {
     content: "";
     display: block;
     width: 11px;
@@ -1529,7 +1639,6 @@ body.modal-open {
 .gallery-modal__btn--next {
     right: 1rem;
 }
-
 /* ── Responsive ────────────────────────────────────────────── */
 @media (max-width: 960px) {
     .highlights {
@@ -1647,4 +1756,12 @@ body.modal-open {
         width: 36px;
         height: 36px;
     }
+}
+
+.itchio-link {
+    width: 100%;
+    height: 165px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
 }
